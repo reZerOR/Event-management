@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "img": "https://i.ibb.co/nLZvv9D/leonardo-miranda-ri-HGdvlu-Dk8-unsplash.jpg",
+    "title": "Weddings",
+    "short-description": "Celebrate love in its purest form at our wedding event",
+    "description": "Unveil the magic of love and commitment at our exquisite wedding event. With every detail meticulously planned, our team of expert organizers will transform your dream wedding into a reality. From the breathtaking venue to the finest culinary delights, join us for an unforgettable day of joy, romance, and cherished memories. Let's write the first chapter of your forever together.",
+    "price": 49.99
+  },
+  {
+    "id": 2,
+    "img": "https://i.ibb.co/jbBXzh0/jon-tyson-CP68p1f-ZS8k-unsplash.jpg",
+    "title": "Birthday Parties",
+    "short-description": "Unforgettable birthdays tailored just for you. Celebrate with us!",
+    "description": "Indulge in the joy of celebrating another year of life with our expertly crafted birthday parties. We specialize in creating unforgettable moments tailored to your unique style and preferences.From intimate gatherings to extravagant bashes, we offer a range of customizable packages to suit your needs. Our dedicated team of event organizers takes care of every detail, from venue selection and decoration to entertainment and catering. We'll bring your vision to life, ensuring that your birthday celebration is a reflection of your personality and desires.",
+    "price": 29.99
+  },
+  {
+    "id": 3,
+    "img": "https://i.ibb.co/wd7kQd1/Anniversaryparty-Getty-Images-534995504-50738fc55d794a6bbcf94ed66d9072c8.jpg",
+    "title": "Anniversaries",
+    "short-description": "Cherish love milestones with our expertly curated anniversary celebrations.",
+    "description": "Celebrate the journey of love and commitment with our meticulously crafted anniversary events. From the day you said 'I do' to each passing year, we're here to help you mark the milestones of your enduring love story.Our dedicated team of event organizers understands the significance of anniversaries. We work closely with you to ensure that every detail, from venue selection and decor to entertainment and gourmet cuisine, is a perfect reflection of your unique journey together.",
+    "price": 99.99
+  },
+  {
+    "id": 4,
+    "img": "https://i.ibb.co/ssF2kV2/katelyn-macmillan-X1504kw-ZTn-I-unsplash.jpg",
+    "title": "Engagement Parties",
+    "short-description": "Engage in celebration! Your love story begins here.",
+    "description": "Embark on the exciting journey of love with our expertly orchestrated engagement parties. This momentous occasion marks the beginning of your shared adventure, and we're here to ensure it starts with a bang.Our team of dedicated event organizers understands that an engagement is not just a milestone; it's a promise of forever. That's why we go above and beyond to curate engagement parties that are as unique as your love story.",
+    "price": 79.99
+  },
+  {
+    "id": 5,
+    "img": "https://i.ibb.co/yWkycTT/al-elmes-ULHx-Wq8reao-unsplash.jpg",
+    "title": "Retirement Parties",
+    "short-description": "Retirement joy! Celebrate a new chapter in style.",
+    "description": "Welcome to a celebration of a life well-lived and a retirement well-deserved. Our retirement parties are a heartfelt tribute to your years of dedication and hard work.As you step into this new chapter, we are here to ensure your retirement party is nothing short of spectacular. Picture a gathering filled with laughter, cherished memories, and heartfelt speeches in your honor.Our event organizers specialize in crafting retirement parties that capture the essence of your career and your dreams for the future. We take care of every detail, from selecting the perfect venue and decor to arranging entertainment and catering.",
+    "price": 149.99
+  },
+  {
+    "id": 6,
+    "img": "https://i.ibb.co/xSZHbBL/aboodi-vesakaran-ox-P3bl3x-QPI-unsplash.jpg",
+    "title": "Baby shower",
+    "short-description": "Welcome the newest addition in style! Baby shower bliss.",
+    "description": "Step into a world of joy and anticipation as we gather to celebrate the impending arrival of a precious little one at our baby shower events.Our dedicated team of event organizers understands the importance of this moment in your life. It's a time to embrace the love and support of family and friends as you prepare to welcome your bundle of joy into the world.We handle every detail, from venue selection and thematic decorations to arranging games, entertainment, and delicious refreshments. Our goal is to create a moment where you can relax, enjoy the company of loved ones, and receive thoughtful advice and gifts to kickstart your journey into parenthood.",
+    "price": 39.99
+  }
+]
