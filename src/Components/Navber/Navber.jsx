@@ -1,17 +1,27 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import "./navber.css";
+import { useContext } from "react";
+import { authContext } from "../../Provider/Provider";
+import profile from "../../assets/user.png";
 
 const Navber = () => {
+  const { user, logOut, setUser } = useContext(authContext);
+  console.log(user);
+
+  const handleLogOut = () => {
+    logOut().then().catch();
+    setUser(null);
+  };
   const links = (
     <>
       <li>
         <NavLink to={"/"}>Home</NavLink>
       </li>
       <li>
-        <NavLink to={"/login"}>Login</NavLink>
+        <NavLink to={"/pricing"}>Pricing</NavLink>
       </li>
       <li>
-        <NavLink to={"/register"}>Register</NavLink>
+        <NavLink to={"/about"}>About</NavLink>
       </li>
     </>
   );
@@ -42,13 +52,31 @@ const Navber = () => {
             {links}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a className="btn btn-ghost normal-case text-2xl">Festiva</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{links}</ul>
       </div>
-      <div className="navbar-end">
-        <a className="btn">Button</a>
+      <div className="navbar-end space-x-1">
+        {user ? (
+          <>
+            <h2>{user.displayName}</h2>
+            <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+              <div className="w-10 rounded-full">
+                <img src={user.photoURL ? user.photoURL : profile} />
+              </div>
+            </label>
+            <a onClick={handleLogOut} className="btn btn-neutral btn-outline">
+              Sign Out
+            </a>
+          </>
+        ) : (
+          <>
+            <button className="btn btn-neutral btn-outline">
+              <NavLink to={"/login"}>Login</NavLink>
+            </button>
+          </>
+        )}
       </div>
     </div>
   );

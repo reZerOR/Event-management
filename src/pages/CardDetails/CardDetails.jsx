@@ -11,7 +11,7 @@ const CardDetails = () => {
   console.log(cards, card, id);
 
   return (
-    <div>
+    <div className="max-w-7xl mx-auto">
       <img className="rounded-xl" src={img} alt="" />
       <div className="flex items-center justify-between mt-6">
         <h2 className="text-5xl font-bold">{title}</h2>

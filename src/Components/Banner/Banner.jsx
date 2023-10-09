@@ -1,14 +1,9 @@
+import { Link } from "react-router-dom";
 import banner from "../../assets/banner.jpg";
-import AOS from "aos";
-import "aos/dist/aos.css"; // You can also use <link> for styles
-// ..
-AOS.init();
 
 const Banner = () => {
   return (
     <div
-      data-aos="fade-up"
-      data-aos-duration="3000"
       className="hero rounded-lg my-12"
       style={{
         backgroundImage: `url(${banner})`,
@@ -32,7 +27,9 @@ const Banner = () => {
               with flair.
             </p>
           </div>
-          <button className="btn animate-pulse btn-neutral">Login</button>
+          <button className="btn animate-pulse btn-neutral">
+            <Link to={"/login"}>Login</Link>
+          </button>
         </div>
       </div>
     </div>
