@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./navber.css";
 import { useContext } from "react";
 import { authContext } from "../../Provider/Provider";

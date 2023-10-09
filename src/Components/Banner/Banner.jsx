@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import banner from "../../assets/banner.jpg";
 
 const Banner = () => {
@@ -27,9 +26,6 @@ const Banner = () => {
               with flair.
             </p>
           </div>
-          <button className="btn animate-pulse btn-neutral">
-            <Link to={"/login"}>Login</Link>
-          </button>
         </div>
       </div>
     </div>
