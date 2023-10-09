@@ -1,8 +1,11 @@
-# React + Vite
+# Festiva
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live link : https://event-managment-9324d.web.app/
 
-Currently, two official plugins are available:
+### Feature
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. First feature is you can login or register in this website.
+2. You can toggle through login and register page.
+3. In this website we have 3 private route. You can not access until you login or register.
+4. In this website we services card which you can click and go to card detail page.
+5. In addition to register we added google registration.

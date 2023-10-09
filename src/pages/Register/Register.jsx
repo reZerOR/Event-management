@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { Link, Navigate, useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { authContext } from "../../Provider/Provider";
 import swal from "sweetalert";
 import { updateProfile } from "firebase/auth";
@@ -12,8 +12,8 @@ const Register = () => {
   const handleGoogle = () => {
     googleLogin()
       .then(() => {
-        swal.fire("Good job!", "Successfully Logged In", "success");
-        Navigate("/");
+        swal("Good job!", "Successfully Logged In", "success");
+        navigate("/");
       })
       .catch((error) => {
         console.log(error);
