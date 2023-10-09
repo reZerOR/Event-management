@@ -20,7 +20,8 @@ console.log(greetign);
 
 #### Answer: C
 
-<i>The console will show undefind because greetign is not define by any veriable declaration</i>
+<i>The console will show undefind because greetign is not define by any veriable declaration.
+When you consolelog a variable which is not defined then console will give undefind</i>
 
 </p>
 </details>
@@ -45,7 +46,8 @@ sum(1, "2");
 
 #### Answer: C
 
-<i>In the sum function it takes two paramiters and sum them. But we gave to data types in the parameters. One is number and other one is string. Because of string parameter, the function two parameter will sum like strings </i>
+<i>In the sum function it takes two paramiters and sum them. But we gave to data types in the parameters. One is number and other one is string.
+Because of string parameter, the function two parameter will sum like strings </i>
 
 </p>
 </details>
@@ -71,7 +73,8 @@ console.log(food);
 
 #### Answer: A
 
-<i>There is no connection between food and info. Thats why the answer is A</i>
+<i>There is no connection between food and info. Thats why the answer is A.
+food variable is array type and info variable is object.</i>
 
 </p>
 </details>
@@ -96,7 +99,8 @@ console.log(sayHi());
 
 #### Answer: B
 
-<i>When we console.log the sayHi function we never defined the name parameter. Thats why its showing Hi there, undefined</i>
+<i>When we console.log the sayHi function we never defined the name parameter.
+Thats why its showing Hi there, undefined</i>
 
 </p>
 </details>
@@ -124,7 +128,9 @@ console.log(count);
 
 #### Answer: C
 
-<i>The answer is 3 because 0 is a falsy value</i>
+<i>The answer is 3 because 0 is a falsy value.
+We know when you if you give 0 to a conditon then the condition will take that as a falsy value.
+The answer should have been 4 if not the first index was 0.</i>
 
 </p>
 </details>
